@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 export default function Together() {
-  const phoneNumber = "919876543210"; // 👈 Replace with your real WhatsApp number (without + or spaces)
+  const phoneNumber = "918943031347"; // 👈 Replace with your real WhatsApp number (without + or spaces)
   const message = encodeURIComponent("Hi Althaf! I’d like to discuss a project with you.");
 
   return (

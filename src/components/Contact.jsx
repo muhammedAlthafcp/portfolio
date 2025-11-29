@@ -20,7 +20,7 @@ export default function Contact() {
         className="text-4xl md:text-5xl font-bold text-center mb-12"
       >
         <span className="bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-500 bg-clip-text text-transparent">
-          Get In Touch
+       
         </span>
       </motion.h2>
 
