@@ -1,25 +1,18 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import Navbar from './components/Navbar';
-// import Footer from './components/Footer';
+import { Routes, Route } from "react-router-dom";
 
-import Home from './Pages/Home';
-import Aboutpage from './Pages/AboutPage';
-import Services from './Pages/Services';
-import Contact from './Pages/Contact'; // ✅ FIXED PATH
+import Home from "./pages/Home";
+import AboutPage from "./pages/AboutPage";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <Router>
-      {/* <Navbar /> */}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<Aboutpage />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      {/* <Footer /> */}
-      
-    </Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<AboutPage />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
   );
 }
 
