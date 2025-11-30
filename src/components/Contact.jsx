@@ -23,6 +23,7 @@ export default function Contact() {
        
         </span>
       </motion.h2>
+      
       <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto relative z-10">
         {/* Left Side — Contact Info */}
         <motion.div
